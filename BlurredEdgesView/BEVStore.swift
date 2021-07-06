@@ -1,6 +1,6 @@
 import SwiftUI
 
-final class BCEStore: ObservableObject {
+final class BEVStore: ObservableObject {
     
     @Published var cameraBounds : CGRect
     @Published var aspectRatio : CGFloat

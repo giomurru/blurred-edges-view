@@ -8,7 +8,7 @@ struct BlurredEdgesViewApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(BCEStore(cameraBounds: Self.imageBounds, aspectRatio: Self.visibleAspectRatio))
+            ContentView().environmentObject(BEVStore(cameraBounds: Self.imageBounds, aspectRatio: Self.visibleAspectRatio))
         }
     }
 }

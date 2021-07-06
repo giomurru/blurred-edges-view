@@ -2,7 +2,7 @@ import SwiftUI
 
 struct EdgesMask: View {
     
-    @EnvironmentObject var store : BCEStore
+    @EnvironmentObject var store : BEVStore
     
     static func RectangleEdgePath(innerRect: CGRect, outerRect: CGRect) -> Path {
         var shape = Rectangle().path(in: outerRect)

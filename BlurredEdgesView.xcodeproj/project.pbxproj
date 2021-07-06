@@ -13,7 +13,7 @@
 		3F2D62812694596D001CB140 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D62802694596D001CB140 /* Preview Assets.xcassets */; };
 		3F2D628B26945986001CB140 /* MaskedCameraBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D628826945986001CB140 /* MaskedCameraBlur.swift */; };
 		3F2D628C26945986001CB140 /* EdgesMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D628926945986001CB140 /* EdgesMask.swift */; };
-		3F2D628D26945986001CB140 /* BCEStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D628A26945986001CB140 /* BCEStore.swift */; };
+		3F2D628D26945986001CB140 /* BEVStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D628A26945986001CB140 /* BEVStore.swift */; };
 		3F2D628F26945A32001CB140 /* Lenna.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D628E26945A31001CB140 /* Lenna.png */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		3F2D62822694596D001CB140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F2D628826945986001CB140 /* MaskedCameraBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedCameraBlur.swift; sourceTree = "<group>"; };
 		3F2D628926945986001CB140 /* EdgesMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgesMask.swift; sourceTree = "<group>"; };
-		3F2D628A26945986001CB140 /* BCEStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCEStore.swift; sourceTree = "<group>"; };
+		3F2D628A26945986001CB140 /* BEVStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEVStore.swift; sourceTree = "<group>"; };
 		3F2D628E26945A31001CB140 /* Lenna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lenna.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,7 +63,7 @@
 				3F2D628E26945A31001CB140 /* Lenna.png */,
 				3F2D627926945968001CB140 /* BlurredEdgesViewApp.swift */,
 				3F2D627B26945968001CB140 /* ContentView.swift */,
-				3F2D628A26945986001CB140 /* BCEStore.swift */,
+				3F2D628A26945986001CB140 /* BEVStore.swift */,
 				3F2D628926945986001CB140 /* EdgesMask.swift */,
 				3F2D628826945986001CB140 /* MaskedCameraBlur.swift */,
 				3F2D627D2694596D001CB140 /* Assets.xcassets */,
@@ -154,7 +154,7 @@
 				3F2D627C26945968001CB140 /* ContentView.swift in Sources */,
 				3F2D628B26945986001CB140 /* MaskedCameraBlur.swift in Sources */,
 				3F2D628C26945986001CB140 /* EdgesMask.swift in Sources */,
-				3F2D628D26945986001CB140 /* BCEStore.swift in Sources */,
+				3F2D628D26945986001CB140 /* BEVStore.swift in Sources */,
 				3F2D627A26945968001CB140 /* BlurredEdgesViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
